@@ -1,0 +1,155 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #b2d8f2;
+  }
+  
+  /* Navigation Styling */
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  header ul {
+    list-style: none;
+  }
+  
+  header ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  header a {
+    color: #9fcddf;
+    text-decoration: none;
+  }
+  
+  header a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  #hero {
+    background-color: #d0dce3;
+    color: rgb(15, 9, 9);
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #hero h1 {
+    font-size: 3rem;
+  }
+  
+  #hero img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  
+  /* About Section */
+  #about {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  /* Skills Section */
+  #skills {
+    padding: 50px;
+    background-color: #edf2f4;
+    text-align: center;
+  }
+  
+  #skills ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #skills ul li {
+    display: inline-block;
+    background: #333;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  /* Projects Section */
+  #projects {
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  .project-card {
+    background: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .project-card img {
+    max-width: 10%;
+    border-radius: 10px;
+  }
+  
+  .project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .project-card a:hover {
+    background: #555;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 50px;
+    background-color: #d0dce3;
+  }
+  
+  #contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #contact input, #contact textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    max-width: 600px;
+  }
+
+
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  

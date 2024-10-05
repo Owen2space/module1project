@@ -1,0 +1,89 @@
+<!--Start with a basic HTML skeleton to define the structure of the page-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <h1><i>Welcome to My Portfolio</i></h1>
+    <p>Hi, I'm Owen Muchungi, a passionate web developer.</p>
+    <img src="profilee.jpeg" alt="Your Profile Photo">
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a skilled ICT professional. With a strong foundation in software development, Owen is proficient in various programming languages, including Kotlin, JavaScript, Python, HTML, and CSS. </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Kotlin</li>
+      <!-- Add more skills -->
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <!-- Each project can be displayed in a card-like structure -->
+    <div class="project-card">
+      <h3>Luisa Money</h3>
+      <img src="project1.jpeg" alt="Project Screenshot">
+      <p>Description of the project.</p>
+      <a href="https://github.com/Owen2space/luisamoney">View Project</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button  type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy2024 owenspace</p>
+    <div>
+      <a href="https://github.com/Owen2space">GitHub</a>
+      <a href="https://www.linkedin.com/in/owen-muchungi-8b8547251/">LinkedIn</a>
+      <!-- More social links -->
+    </div>
+  </footer>
+
+</body>
+</html>
